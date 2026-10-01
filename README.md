@@ -39,8 +39,8 @@ The application fetches music metadata and audio streams using a custom-built AP
   `https://bardi.fsc-clan.eu/stream/<id_retrieved_from_metadata>`
 
 > **Note:** The Music API uses [yt-dlp](https://github.com/yt-dlp/yt-dlp) to fetch audio streams from YouTube.  
-> [![GitHub Repo](https://img.shields.io/badge/Repository-yt--audio--api-181717?style=for-the-badge&logo=github)](https://github.com/Aleem-27/yt-audio-api)  
-> [![GitHub Profile](https://img.shields.io/badge/GitHub-Aleem--27-181717?style=for-the-badge&logo=github)](https://github.com/Aleem-27)
+> [![GitHub Repo](https://img.shields.io/badge/Repository-yt--audio--api-181717?style=for-the-badge&logo=github)](https://github.com/emuhammadali/yt-audio-api)  
+> [![GitHub Profile](https://img.shields.io/badge/GitHub-emuhammadali-181717?style=for-the-badge&logo=github)](https://github.com/emuhammadali)
 
 ### 🔄 Synced Events
 Playback events are broadcasted in real-time to all connected users, ensuring perfect synchronization for:
@@ -91,4 +91,53 @@ To get a local copy up and running, follow these simple steps.
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/Aleem-27/sound-lobby.git
+   git clone https://github.com/emuhammadali/sound-lobby.git
+   ```
+
+2. **Navigate to the project directory**
+   ```bash
+   cd sound-lobby
+   ```
+
+3. **Install dependencies**
+   ```bash
+   flutter pub get
+   ```
+
+4. **Configure Firebase**
+   - Add your `google-services.json` (Android) and `GoogleService-Info.plist` (iOS) files.
+   - Run `flutterfire configure` if needed.
+
+5. **Run the app**
+   ```bash
+   flutter run
+   ```
+
+---
+
+## 🤝 Contributing
+
+Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are greatly appreciated.
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+---
+
+## 📄 License
+
+Distributed under the MIT License. See `LICENSE` for more information.
+
+---
+
+## 📬 Contact
+
+**Muhammad Ali**  
+[![GitHub Profile](https://img.shields.io/badge/GitHub-emuhammadali-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/emuhammadali)
+
+**Project Link:** [https://github.com/emuhammadali/sound-lobby](https://github.com/emuhammadali/sound-lobby)
+
+<p align="center">Made with ❤️ and 🎶 for music lovers.</p>
