@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "231303426809",
+    "project_id": "soundlobby-b74ee",
+    "storage_bucket": "soundlobby-b74ee.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:231303426809:android:af18c677b239748e5b2828",
+        "android_client_info": {
+          "package_name": "com.soundlobby.sound_lobby"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBthEWBYKBBdVPn8QzdRatGA4u58eBVvBQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
